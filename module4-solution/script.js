@@ -60,8 +60,8 @@ var firstLetter = names[i].charAt(0).toLowerCase();
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (firstLetter == "j") {
-    window.byeSpeaker.speak(names[i]);
+    byeSpeaker.speak(names[i]);
   } else {
-    window.helloSpeaker.speak(names[i]);
+    helloSpeaker.speak(names[i]);
   }
 }
